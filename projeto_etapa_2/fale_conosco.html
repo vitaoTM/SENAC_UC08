@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Fale conosco</title>
+</head>
+<body>
+    <header>   
+ 		<a href="index.html">Inicio</a>&nbsp;
+ 		<a href="cliente.html">Marque um horario</a>&nbsp;
+ 		<a href="produtos.html">Produtos</a>&nbsp;
+ 		<a href="trabalho.html">Carreiras</a>&nbsp;   
+ 		<a href="fale_conosco.html">Fale conosco</a>&nbsp;   
+    </header>    
+
+    <main class="conteudo">
+        <h1 id="titulo">Fale conosco</h1>
+        <form class="formulario">
+            <fieldset class="grupo">
+                <div class="campo">
+                    <label for="nome">nome:</label>
+                    <input id="nome" type="text" placeholder="Digite seu nome" required>                    
+                </div>
+                <div class="campo">
+                    <label for="sobrenone">Sobrenome:</label>
+                    <input id="Sobrenome" type="text" placeholder="Digite seu Sobrenome" required>                
+                </div>
+            </fieldset>
+            <div class="campo">
+                <label for="email">email:</label>
+                <input id="email" type="email" placeholder="Digite seu email" required>
+            </div>
+            <div class="campo">
+                <label for="cellular">cell:</label> <br>
+                <input id="cellular" type="number" placeholder="Digite seu celular" required>
+            </div>
+            <div class="campo"> 
+                <label>O que você gostaria?</label>
+                <label>
+                    <input type="radio" name="duvidas" value="duvidas"> Duvidas
+                </label>
+                <label>
+                    <input type="radio" name="duvidas" value="reclamacao"> Reclamações
+                </label>
+            </div>
+            <div class="campo">
+                <label>Duvidas e reclamações:</label>
+                <textarea  rows="6" style="width: 26em" id="duvida" name="duvida" required></textarea>
+                <br>
+                <button class="botao" type="submit">Enviar</button>
+            </div>
+        </form>
+    </main>
+    <footer class="rodape">
+        <div>
+            <p class="rodape-paragrafo">Todos os direitos reservados. contato: +55 19 99367 1971</p>
+        </div>
+    </footer>
+</body>
